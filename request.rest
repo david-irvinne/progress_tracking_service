@@ -10,10 +10,10 @@ Content-Type: application/json
 
 {
   "userId": "123",
-  "activityName": "bermain tic tac toe",
+  "activityName": "minum coklat panas",
   "activityDuration": 60,
-  "score": 90,
-  "comment": "apa lah ini cik"
+  "score": 52,
+  "comment": "spongebob"
 }
 
 ### get activity log by user
