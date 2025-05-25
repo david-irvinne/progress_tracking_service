@@ -1,1 +1,5 @@
-GET http://localhost:5000/?name=david
+GET http://localhost:5000/?name=dgsdgfa
+
+
+###
+GET http://localhost:5000/api/progress
