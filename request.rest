@@ -3,3 +3,18 @@ GET http://localhost:5000/?name=dgsdgfa
 
 ###
 GET http://localhost:5000/api/progress
+
+### create activity log
+POST http://localhost:5000/api/progress/activityLog
+Content-Type: application/json
+
+{
+  "userId": "123",
+  "activityName": "bermain tic tac toe",
+  "activityDuration": 80,
+  "score": 40,
+  "comment": "i hope i don't mess my grade"
+}
+
+### get activity log by user
+GET http://localhost:5000/api/progress/activityLog/123
