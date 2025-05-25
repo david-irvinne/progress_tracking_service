@@ -11,10 +11,15 @@ Content-Type: application/json
 {
   "userId": "123",
   "activityName": "bermain tic tac toe",
-  "activityDuration": 80,
-  "score": 40,
-  "comment": "i hope i don't mess my grade"
+  "activityDuration": 60,
+  "score": 90,
+  "comment": "apa lah ini cik"
 }
 
 ### get activity log by user
 GET http://localhost:5000/api/progress/activityLog/123
+
+
+
+### get activity recommendation by users
+GET http://localhost:5000/api/progress/recommendation/123
