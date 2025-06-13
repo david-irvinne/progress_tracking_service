@@ -5,21 +5,23 @@ GET http://localhost:5000/?name=dgsdgfa
 GET http://localhost:5000/api/progress
 
 ### create activity log
-POST http://localhost:5000/api/progress/activityLog
+POST https://pts.koyeb.app/api/progress/activityLog
 Content-Type: application/json
 
 {
-  "userId": "123",
-  "activityName": "minum coklat panas",
-  "activityDuration": 60,
-  "score": 52,
-  "comment": "spongebob"
+  "userId": "david",
+  "activityName": "test bang",
+  "activityDuration": 5.3,
+  "score": 1.2,
+  "comment": "test commeng"
 }
 
 ### get activity log by user
-GET http://localhost:5000/api/progress/activityLog/123
-
+GET https://pts.koyeb.app/api/progress/activityLog/123
 
 
 ### get activity recommendation by users
-GET http://localhost:5000/api/progress/recommendation/123
+GET https://pts.koyeb.app/api/progress/recommendation/123
+
+###
+GET http://182.1.87.13:3000/health
